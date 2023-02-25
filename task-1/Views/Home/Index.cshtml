@@ -1,0 +1,28 @@
+﻿@using task_1.ViewsModel;
+
+
+@model Common
+<ul>
+	@foreach (var item in Model.Catagories)
+	{
+		<li>
+		
+			@item.Id @item.Name
+		
+		</li>
+
+	}
+</ul>
+
+<ul style="background-color:black">
+	@foreach (var item in Model.Games)
+	{
+		<li style="color:white">
+			<img height="150" width="150" src="@item.Photo" style="object-fit:contain"><br>
+			@item.Id <br> @item.Name<br>
+			@item.ReleaseDate<br> @item.Title <br>
+			@item.Price
+		</li>
+		
+	}
+</ul>

@@ -1,0 +1,15 @@
+﻿@using task_1.Models;
+
+
+@model List<Game_Catagories>
+
+<ul style="display:flex; justify-content:space-between; background-color:rgba(0, 0, 0, 0.2);">
+	@foreach (var item in Model)
+	{
+		<li style="color:white;font-size:50px;text-align:
+;">
+			@item.Id @item.Name <br>
+			<img src="https://dw0i2gv3d32l1.cloudfront.net/uploads/stage/stage_image/74408/optimized_large_thumb_stage.jpg"> 
+		</li>
+	}
+</ul>
