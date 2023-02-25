@@ -1,0 +1,17 @@
+﻿@using task_1.Models;
+
+@model List<Games>
+
+
+<ul style="background-color:rgba(0, 0, 0, 0.8); display:flex;">
+	@foreach (var item in Model)
+	{
+		<li style="color:white">
+			<img height="150" width="250" src="@item.Photo" style="object-fit:contain;"><br>
+			<br> @item.Name<br>
+			@item.ReleaseDate<br> @item.Title <br>
+			@item.Price
+		</li>
+
+	}
+</ul>

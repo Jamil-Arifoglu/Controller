@@ -34,7 +34,7 @@ namespace task_1.Controlers
 
 			};
 		}
-        public IActionResult About()
+        public IActionResult List()
 		{
 
 
