@@ -30,6 +30,25 @@ namespace task_1.Controlers
 					 Title="Euro Truck Simulator 2 biznesin idarə edilməsi elementləri ilə yük maşını sürmə simulyatorudur. Oyunçular pul və təcrübə xalları ilə kompensasiya olunmaq üçün yükləri təyin olunmuş yerlərə çatdıraraq, Avropanın açıq dünya nümayişində yük maşınlarını sürürlər .",
 					  Price="15.30$",
 					  Photo="https://wallpapercave.com/wp/wp2578407.jpg"
+
+				},
+				new Games
+				{
+					Id = 2,
+					Name="Euro Truck Simulator 2",
+					 ReleaseDate=" 18 October 2012",
+					 Title="Euro Truck Simulator 2 biznesin idarə edilməsi elementləri ilə yük maşını sürmə simulyatorudur. Oyunçular pul və təcrübə xalları ilə kompensasiya olunmaq üçün yükləri təyin olunmuş yerlərə çatdıraraq, Avropanın açıq dünya nümayişində yük maşınlarını sürürlər .",
+					  Price="15.30$",
+					  Photo="https://wallpapercave.com/wp/wp2578407.jpg"
+				},
+				new Games
+				{
+					Id = 2,
+					Name="Euro Truck Simulator 2",
+					 ReleaseDate=" 18 October 2012",
+					 Title="Euro Truck Simulator 2 biznesin idarə edilməsi elementləri ilə yük maşını sürmə simulyatorudur. Oyunçular pul və təcrübə xalları ilə kompensasiya olunmaq üçün yükləri təyin olunmuş yerlərə çatdıraraq, Avropanın açıq dünya nümayişində yük maşınlarını sürürlər .",
+					  Price="15.30$",
+					  Photo="https://wallpapercave.com/wp/wp2578407.jpg"
 				}
 
 			};
@@ -38,7 +57,7 @@ namespace task_1.Controlers
 				new Game_Catagories
 				{
 					Id= 1,
-					Name="dram"
+					Name="Simulator"
 				},
 				new Game_Catagories
 				{

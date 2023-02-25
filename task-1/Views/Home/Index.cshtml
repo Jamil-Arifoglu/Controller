@@ -2,24 +2,24 @@
 
 
 @model Common
-<ul>
+<ul style="display:flex;color:white;font-size:50px;justify-content:space-between;background-color:rgba(0, 0, 0, 0.8);">
 	@foreach (var item in Model.Catagories)
 	{
 		<li>
 		
-			@item.Id @item.Name
+		 @item.Name
 		
 		</li>
 
 	}
 </ul>
 
-<ul style="background-color:black">
+<ul style="background-color:rgba(0, 0, 0, 0.8); display:flex;">
 	@foreach (var item in Model.Games)
 	{
 		<li style="color:white">
-			<img height="150" width="150" src="@item.Photo" style="object-fit:contain"><br>
-			@item.Id <br> @item.Name<br>
+			<img height="150" width="250" src="@item.Photo" style="object-fit:contain;"><br>
+			 <br> @item.Name<br>
 			@item.ReleaseDate<br> @item.Title <br>
 			@item.Price
 		</li>

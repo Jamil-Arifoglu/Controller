@@ -13,17 +13,23 @@ namespace task_1.Controlers
 				new Game_Catagories
 				{
 					Id= 1,
-					Name="dram"
+					Name="Simulator",
+					Photo="https://dw0i2gv3d32l1.cloudfront.net/uploads/stage/stage_image/74408/optimized_large_thumb_stage.jpg"
 				},
 				new Game_Catagories
 				{
 					Id= 2,
-					Name="dram"
+
+					Name="dram",
+					Photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbyjEu-DUXcWOAlioM_O2k5nlYxYFsLcgoQ2UqWffyAUMm_UsWsR61IbiKzkLfl_HN8uI&usqp=CAU"
+
 				},
 				new Game_Catagories
 				{
 					Id= 3,
-					Name="dram"
+					Name="dram",
+					Photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJtPJbLfzAW2v-Ah6kXyiUBn0kv_FpmIXvPxB2omeCF2t8F4LIAa_OPlefhefmmOXrAlI&usqp=CAU"
+
 				}
 
 			};
