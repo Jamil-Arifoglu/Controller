@@ -14,10 +14,10 @@
 	}
 </ul>
 
-<ul style="background-color:rgba(0, 0, 0, 0.5); display:flex; padding:30px;">
+<ul class="row" style="background-color:rgba(0, 0, 0, 0.5); padding:30px;">
 	@foreach (var item in Model.Games)
 	{
-		<li style="color:white" >
+		<li class="col-4" style="color:white" >
 			<img height="150" width="250" src="@item.Photo" style="object-fit:contain;"><br>
 			 <br> @item.Name<br>
 			@item.ReleaseDate<br> @item.Title <br>
