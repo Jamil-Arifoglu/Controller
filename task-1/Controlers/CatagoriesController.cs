@@ -20,15 +20,15 @@ namespace task_1.Controlers
 				{
 					Id= 2,
 
-					Name="dram",
-					Photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbyjEu-DUXcWOAlioM_O2k5nlYxYFsLcgoQ2UqWffyAUMm_UsWsR61IbiKzkLfl_HN8uI&usqp=CAU"
+					Name="FPS games",
+					Photo="https://thumbs.dreamstime.com/b/illustration-vector-graphic-fps-shooter-game-logo-fps-shooter-game-logo-design-216860158.jpg"
 
 				},
 				new Game_Catagories
 				{
 					Id= 3,
-					Name="dram",
-					Photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJtPJbLfzAW2v-Ah6kXyiUBn0kv_FpmIXvPxB2omeCF2t8F4LIAa_OPlefhefmmOXrAlI&usqp=CAU"
+					Name="Sport",
+					Photo="https://i.pinimg.com/736x/80/32/7b/80327b25c6548d6375c55a3ffa44a726.jpg"
 
 				}
 

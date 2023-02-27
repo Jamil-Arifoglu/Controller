@@ -2,7 +2,7 @@
 
 
 @model Common
-<ul style="display:flex;color:white;font-size:50px;justify-content:space-between;background-color:rgba(0, 0, 0, 0.8);">
+<ul style="display:flex;color:white;font-size:50px;justify-content:space-between;background-color:rgba(0, 0, 0, 0.5) ; padding: 0 30px;">
 	@foreach (var item in Model.Catagories)
 	{
 		<li>
@@ -14,15 +14,16 @@
 	}
 </ul>
 
-<ul style="background-color:rgba(0, 0, 0, 0.8); display:flex;">
+<ul style="background-color:rgba(0, 0, 0, 0.5); display:flex; padding:30px;">
 	@foreach (var item in Model.Games)
 	{
-		<li style="color:white">
+		<li style="color:white" >
 			<img height="150" width="250" src="@item.Photo" style="object-fit:contain;"><br>
 			 <br> @item.Name<br>
 			@item.ReleaseDate<br> @item.Title <br>
 			@item.Price
 		</li>
+
 		
 	}
 </ul>
